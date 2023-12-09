@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    div {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      background-color: blue;
+    }
+    p {
+      /*让一个盒子水平垂直居中*/
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: yellow;
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+  <body>
+    <div>
+      <p></p>
+    </div>
+  </body>
+</html>
